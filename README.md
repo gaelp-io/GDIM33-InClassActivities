@@ -9,6 +9,7 @@
 
 
 ### Activity 2
+![F1 2D Racing Game Break-Down](https://github.com/user-attachments/assets/3677d0c4-9eae-4f36-b5bd-47507babf770)
 
 
 ## Week 2
