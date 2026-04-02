@@ -9,7 +9,6 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
 
 
 ## Week 2
