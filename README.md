@@ -13,6 +13,4 @@
 
 
 ## Week 2
-Write your W2 Devlog here.
-
-Continue adding additional headers below this one for future weeks and future activities.
+Link to Commit for In Class Activity: [In Class Activity Week 2](https://github.com/gaelp-io/GDIM33-InClassActivities/commit/0303c26613d84d2d5b25e12be647be43f6df6c8e)
