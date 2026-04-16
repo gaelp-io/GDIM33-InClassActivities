@@ -23,5 +23,5 @@ Updated Break-Down
 ### Activity 2
 1. It is advantageous to save "clickNpcEventName" as a scene variable because it allows us to access from any graph we are currently using in the scene.
 2. Using a Debug log for when the Walrus is clicked was really helpful because it allowed us to see that the issue was the transition not firing instead of thinking that the click wasn't registered.
-3. 
-4. 
+3. For my Vertical Slice the Set Cursor Lock State won't be relevant since my game is 2D it won't require any use for a cursor I won't need this state. Also, in general 2D games don't require cursors to be locked, usually they just disappear not lock, if the player isn't in a dialogue state.
+4. The concept of a game state will be relevant in my game because since I am doing 2D I need a power up item which will change the state of the player whenever they equip it. Also, whenever the player is attacking an NPC in my game, the state will chaneg to stop them from moving and to have them complete a QTE.
