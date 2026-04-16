@@ -19,3 +19,9 @@ Link to Commit for In Class Activity: [In Class Activity Week 2](https://github.
 ### Activity 1
 Updated Break-Down
 <img width="960" height="720" alt="F1 2D Racing Game Break-Down (3)" src="https://github.com/user-attachments/assets/2e11031f-4d0d-4537-bf4a-916dd7dfffe0" />
+
+### Activity 2
+1. It is advantageous to save "clickNpcEventName" as a scene variable because it allows us to access from any graph we are currently using in the scene.
+2. Using a Debug log for when the Walrus is clicked was really helpful because it allowed us to see that the issue was the transition not firing instead of thinking that the click wasn't registered.
+3. 
+4. 
