@@ -18,3 +18,4 @@ Link to Commit for In Class Activity: [In Class Activity Week 2](https://github.
 ## Week 3
 ### Activity 1
 Updated Break-Down
+<img width="960" height="720" alt="F1 2D Racing Game Break-Down (3)" src="https://github.com/user-attachments/assets/2e11031f-4d0d-4537-bf4a-916dd7dfffe0" />
