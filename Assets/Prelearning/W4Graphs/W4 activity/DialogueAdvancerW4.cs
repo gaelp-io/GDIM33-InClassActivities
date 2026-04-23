@@ -6,7 +6,7 @@ namespace W4Activity
     public class DialogueAdvancerW4 : MonoBehaviour
     {
 
-        public prefab DialogueNodeW4;
+        public DialogueNodeW4 startingDialogue;
 
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
@@ -28,6 +28,13 @@ namespace W4Activity
         public void ChooseDialogue (DialogueNodeW4 nextLine)
         {
             EventBus.Trigger(VsEventNames.NewDialogueEvent, nextLine);
+        }
+
+        public void Start()
+        {
+            GraphReference reference = GraphReference.New(GetComponent<ScriptMachine>().graph,true);
+
+            NewDialogueEventW4.Trigger(startingDialogue);
         }
     }
 }

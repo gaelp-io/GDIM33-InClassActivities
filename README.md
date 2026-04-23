@@ -39,5 +39,8 @@ Updated Break-Down
     - Add obstacles for a challenge
     - Movement is smooth
     - Unsure what timer is for (will make sense once game is complete as it will show the player's racing time)
+    - Make timer bigger
+    - Make boost more approachable (looks like a danger the player would avoid)
+    - Add a cooldown for the boost (a ticking box or clock in the top right that shows your remaining time with the boost)
 
 ### Activity 2
