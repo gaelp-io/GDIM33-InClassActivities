@@ -32,9 +32,7 @@ namespace W4Activity
 
         public void Start()
         {
-            GraphReference reference = GraphReference.New(GetComponent<ScriptMachine>().graph,true);
-
-            NewDialogueEventW4.Trigger(startingDialogue);
+            EventBus.Trigger(VsEventNames.NewDialogueEvent, startingDialogue);
         }
     }
 }
