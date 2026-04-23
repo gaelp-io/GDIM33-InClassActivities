@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
   m_Name: sup bro
   m_EditorClassIdentifier: 
-  Line: sup bro
-  ReplyOptions: []
+  Line: nothing much
+  ReplyOptions:
+  - line: I fw you
+    nextNode: {fileID: 11400000, guid: 2db2398b95ab5e849993d1fb33fce535, type: 2}
+  - line: what is your favorite food
+    nextNode: {fileID: 11400000, guid: d2684facd2077064a8a9991c8e241f7e, type: 2}

@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
-  m_Name: don't talk to me
+  m_Name: i fw you
   m_EditorClassIdentifier: 
-  Line: wow okay jerk
-  ReplyOptions:
-  - line: sorry
-    nextNode: {fileID: 11400000, guid: 3f34aec52232f3c4198e58784e304180, type: 2}
-  - line: my fault bro
-    nextNode: {fileID: 11400000, guid: 3908f925ea90a7e4183581a5a4d0c4a2, type: 2}
+  Line: thanks
+  ReplyOptions: []
