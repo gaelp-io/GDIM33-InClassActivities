@@ -44,3 +44,6 @@ Updated Break-Down
     - Add a cooldown for the boost (a ticking box or clock in the top right that shows your remaining time with the boost)
 
 ### Activity 2
+- Yes, a writer could add more dialogue without writing code because scriptable objects allow editors to simply work with assets and menus when adding new dialogue rather than adding new lines within the code itself.
+- There is technically no limit to the number of dialogue nodes a writer could make, however eventually there will be too many to stay organized within the scope of the project/graph.
+- The purpose of the regenerate nodes button is for Unity to be able to recognize new scripts as types that can be used as nodes within a graph, we need to regenerate because every new script isn't automatically translated into a node for visual scripting.
