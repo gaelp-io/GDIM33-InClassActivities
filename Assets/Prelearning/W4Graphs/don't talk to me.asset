@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
-  m_Name: DialogueLineW4
+  m_Name: don't talk to me
   m_EditorClassIdentifier: 
-  Line: wassup bro
-  ReplyOptions:
-  - line: sup bro
-    nextNode: {fileID: 11400000, guid: e2c9c8095da1cd64384def2f3a31c5d2, type: 2}
-  - line: don't talk to me
-    nextNode: {fileID: 11400000, guid: a92fb29c657ec6b49b14e7fb4e714100, type: 2}
+  Line: don't talk to me
+  ReplyOptions: []
