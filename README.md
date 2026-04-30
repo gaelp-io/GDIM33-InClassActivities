@@ -47,3 +47,21 @@ Updated Break-Down
 - Yes, a writer could add more dialogue without writing code because scriptable objects allow editors to simply work with assets and menus when adding new dialogue rather than adding new lines within the code itself.
 - There is technically no limit to the number of dialogue nodes a writer could make, however eventually there will be too many to stay organized within the scope of the project/graph.
 - The purpose of the regenerate nodes button is for Unity to be able to recognize new scripts as types that can be used as nodes within a graph, we need to regenerate because every new script isn't automatically translated into a node for visual scripting.
+
+## Week 5
+### Activity 1
+Steps:
+1. Respawn Speedboost after a certain time
+    - Have new boost spawn 20 seconds after the first one (playtest in unity)
+    - Make sure both boosts spawn at the correct time (check in game timer during playtest)
+
+2. Player collects Speedboost powerup
+    - Player uses state machine in order to transition into new state for both speedboosts (debug.log)
+    - Speedboost destroys itself after comparing tags with player gameobject (check in unity playtest)
+
+3. Player gets temoporarily faster after 10 seconds
+    - Player speed variable goes to 10 after hitting speedboost (check inspector during playtest)
+    - The speedboost only lasts 10 seconds (check in game timer during unity playtest)
+
+### Activity 2
+First I cleaned up some UI stuff by making the boost timer transparent, then I was able to make the power-up spawn twice at certain times! I did this by instantiating the speedboost prefab and having two seperate bools to spawn the prefab at two specifc times on the game timer (5 seconds and 20 seconds). After the second power up spawns the player was able to "collect" the power up and then they gained a temporary speed boost (speed veriable set to 10) for 10 seconds just like the first powerup does!
