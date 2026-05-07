@@ -79,6 +79,12 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
     - Make it so that the player's collider turns off for 5 seconds after taking a hit (temporary invincibility) instead of turning off the prefabs collider
     - Add a game end screen to show player how long they lasted
     - Make sure speed boosts don't spawn on top of obstacles
+    - Make UI bigger
+    - Switch timer text and lives UI with the speedboost UI
+    - Make the playaer blink/flash when they get hit
+    - Put an image for the speedboost UI circle (maybe like speedboost arrows?)
+    - Make obstacles faster for a harder challenge
+    - Add audio
 
 ### Activity 2
 - 
