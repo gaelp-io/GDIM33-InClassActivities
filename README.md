@@ -65,3 +65,14 @@ Steps:
 
 ### Activity 2
 First I cleaned up some UI stuff by making the boost timer transparent, then I was able to make the power-up spawn twice at certain times! I did this by instantiating the speedboost prefab and having two seperate bools to spawn the prefab at two specifc times on the game timer (5 seconds and 20 seconds). After the second power up spawns the player was able to "collect" the power up and then they gained a temporary speed boost (speed veriable set to 10) for 10 seconds just like the first powerup does!
+
+## Week 6
+### Activity 1
+- What is new in my currently playable build: I have added mouse lock after the player clicks anywhere on the start screen, obstacles which look like other racers that the player has to avoid, a life system for the player so that every time they hit an obstacle they go invincible for 5 seconds and lose one of their 3 lives, and finally once the player loses all 3 lives the player gameobject is destroyed and the player can no longer continue the game.
+- [Itch link](https://porrasg.itch.io/gdim-33-milestone-2)
+- Playtesting goals:
+    - See if the obstacle's movements are smooth
+    - Observe the level of difficulty the player has against the obstacles
+    - Get the player's overall thoughts on the obstacles
+- Playtesting Notes:
+    - 
