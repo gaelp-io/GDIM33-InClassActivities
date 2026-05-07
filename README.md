@@ -87,4 +87,7 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
     - Add audio
 
 ### Activity 2
-- 
+1. The multiply setting of the blend node makes the resulting colors darker and less saturated than the input colors because the values are between 0-1 which makes them decimals, and when they are multiplied with each other they become smaller decimals which leads to darker and less saturated colors.
+2. 
+3. 
+4. 
