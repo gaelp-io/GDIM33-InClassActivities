@@ -88,6 +88,6 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
 
 ### Activity 2
 1. The multiply setting of the blend node makes the resulting colors darker and less saturated than the input colors because the values are between 0-1 which makes them decimals, and when they are multiplied with each other they become smaller decimals which leads to darker and less saturated colors.
-2. 
-3. 
-4. 
+2. The resulting value will be more transparent because just like the color values, the decimals multiplied by each other will result in smaller numbers, so when that smaller number is inputed into the alpha value, the material becomes more transparent.
+3. The shader gets the UV values from the Shiba texture, which means it is essentially getting a 2D map spread of the Shiba texture on the model.
+4. I think it is pretty interesting that we can manipulate colors using math because I sort of understand how it works now and that makes me feel a bit better/more confident with working with shader graphs.
