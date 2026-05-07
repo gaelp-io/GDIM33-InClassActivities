@@ -75,4 +75,10 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
     - Observe the level of difficulty the player has against the obstacles
     - Get the player's overall thoughts on the obstacles
 - Playtesting Notes:
-    - 
+    - Change speed boost color to not confuse player (red heart means they think they will get an extra life, so maybe change to blue?)
+    - Make it so that the player's collider turns off for 5 seconds after taking a hit (temporary invincibility) instead of turning off the prefabs collider
+    - Add a game end screen to show player how long they lasted
+    - Make sure speed boosts don't spawn on top of obstacles
+
+### Activity 2
+- 
