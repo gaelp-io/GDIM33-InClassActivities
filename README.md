@@ -91,3 +91,13 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
 2. The resulting value will be more transparent because just like the color values, the decimals multiplied by each other will result in smaller numbers, so when that smaller number is inputed into the alpha value, the material becomes more transparent.
 3. The shader gets the UV values from the Shiba texture, which means it is essentially getting a 2D map spread of the Shiba texture on the model.
 4. I think it is pretty interesting that we can manipulate colors using math because I sort of understand how it works now and that makes me feel a bit better/more confident with working with shader graphs.
+
+## Week 7
+### Devlog Questions
+1. The data for the Vertex Color node orginally came from the mesh itself! Most nodes under geometry already have data that comes from the original mesh.
+2. The data between each vertex is interpolated in order to have specific areas of the shiba be a different color, like the white parts of the shiba's fur.
+3. The reason the vertex color is less detailed is because the resolution of the model is less than the resolution that a texture can provided, so a texture can simply provide more detail due to the texture having a higher resolution. Vertex color could most likely be useful for blending colors, simple prototypes, and possible even performance because lower resolution would cause less stress on devices.
+4. Based on the color, the vector normals of the shiba are pointing away from the Shiba while the light is pointing towards the Shiba which creates a negative and causes the Shiba to have reverse colors than it should have.
+5. Another piece of vertex data we could debug using a shader could be UV mapping to see if there are any texture mapping issues on our model.
+6. The reason there is an error on the back of the Shiba is because of the way the model is made, which causes those surface normals to be pointed in a direction where the lighting believes shadows should be in that area, making it look not smooth.
+7. I think we set the blend mode to Additive for the fire effect to remove black completely from the texture in order to have it blend in well with whatever background you decide.
