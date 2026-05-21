@@ -118,7 +118,7 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
     - Make it so that car obstacles can double spawn (i.e. one car in the middle lane and one car in the bottom lane at the same time, so that the player doesn't just go up and down in the same motion the entire game)
 
 ### Activity 2 (2B)
-1. The fraction node is used to animate the shine effect by
-2. The shine texture for the ShinySprite shader needs to be black by default because
-3. The building texture we used in the ShaderGraph isn't applied to all of the sprites that use the ShinySprite shader because
-4. We multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside, as in fraction(time)*speed, because
+1. The fraction node is used to animate the shine effect by only keeping the decimal portion of a value which creates a cycle effect that gives the shine its animation.
+2. The shine texture for the ShinySprite shader needs to be black by default because the value of black is (0,0,0) which allows the sprite to be left untouched by black and then once value is added that adds light/color to the sprite.
+3. The building texture we used in the ShaderGraph isn't applied to all of the sprites that use the ShinySprite shader because the texture inside the shadergraph is usually exposed/seen as a material property and not actually hardcoded into each sprite individually.
+4. We multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside, as in fraction(time)*speed, because fraction allows the value to wrap around into something between 0-1, so if we did 2 shinespeed we would get 1.5 which would then be 0.5 and therefore double the speed.
