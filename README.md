@@ -101,3 +101,24 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
 5. Another piece of vertex data we could debug using a shader could be UV mapping to see if there are any texture mapping issues on our model.
 6. The reason there is an error on the back of the Shiba is because of the way the model is made, which causes those surface normals to be pointed in a direction where the lighting believes shadows should be in that area, making it look not smooth.
 7. I think we set the blend mode to Additive for the fire effect to remove black completely from the texture in order to have it blend in well with whatever background you decide.
+
+## Week 8
+### Activity 1
+- What is new in my Itch build is that I made the obstacles more difficult for the player to avoid and have made infinite speed boost spawn throughout the entire time the player is playing the game.
+- [Itch Link](https://porrasg.itch.io/gdim-33-milestone-3)
+- My playtesting goals are:
+    - Checking if the obstacles provide enough difficulty for the player to still have fun but also be challenged as they play
+    - Determine if the boost spawns should be more spread out (whether this regards time in between spawns or if the boost spawns should also be able to spawn on the top and bottom lanes)
+- Playtesting Notes:
+    - Fix returning to menu turning off colliders
+    - No backspace to return (make it the r key instead)
+    - Make the r key also the start button (so player can use the same hand they are already playing with)
+    - Make it so that the mouse is locked immediately (player shouldn't have to use the mouse at all in the game, not even to start it)
+    - Change speed boost increase amount to make it more manageable (current speed is too fast and doesn't benefit the player)
+    - Make it so that car obstacles can double spawn (i.e. one car in the middle lane and one car in the bottom lane at the same time, so that the player doesn't just go up and down in the same motion the entire game)
+
+### Activity 2 (2B)
+1. The fraction node is used to animate the shine effect by
+2. The shine texture for the ShinySprite shader needs to be black by default because
+3. The building texture we used in the ShaderGraph isn't applied to all of the sprites that use the ShinySprite shader because
+4. We multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside, as in fraction(time)*speed, because
