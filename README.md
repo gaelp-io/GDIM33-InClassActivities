@@ -140,3 +140,5 @@ Rendering System 3: Powdered Snow Effect (Minecraft)
 - Once the player enters a powdered snow block, which would be activated by an on trigger enter collider, the post-processing effect is enabled and makes the powdered snow effect appear more and more on the player's screen the longer they stand in the powdered snow block.
 
 ### Activity 2
+Shader Graph Image:
+<img width="730" height="411" alt="ShaderGraphScreenshot" src="https://github.com/user-attachments/assets/3b335828-a334-476c-a981-3df277d5aadf" />
