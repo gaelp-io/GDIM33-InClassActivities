@@ -142,3 +142,5 @@ Rendering System 3: Powdered Snow Effect (Minecraft)
 ### Activity 2
 Shader Graph Image:
 <img width="730" height="411" alt="ShaderGraphScreenshot" src="https://github.com/user-attachments/assets/3b335828-a334-476c-a981-3df277d5aadf" />
+
+- An issue with my shadergraph that I was able to fix was the shape of the light under my car because no matter sprite I changed it to it didn't work as headlights. So what I was able to figure out was that I can use the freeform light in order to change the shape of the light myself and make it look like headlights. Then another small issue I fixed was the placement of the freeform dots because I couldn't make it exact/match the other dots to make it symmetrical. However, I eventually figured out that I can use the inspector in order to put an x and y value once a dot is selected and that way I have them in the exact positions I want while also being symmetrical.
