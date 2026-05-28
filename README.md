@@ -122,3 +122,21 @@ First I cleaned up some UI stuff by making the boost timer transparent, then I w
 2. The shine texture for the ShinySprite shader needs to be black by default because the value of black is (0,0,0) which allows the sprite to be left untouched by black and then once value is added that adds light/color to the sprite.
 3. The building texture we used in the ShaderGraph isn't applied to all of the sprites that use the ShinySprite shader because the texture inside the shadergraph is usually exposed/seen as a material property and not actually hardcoded into each sprite individually.
 4. We multiply fraction(time * ShineSpeed) with the speed variable inside the fraction instead of outside, as in fraction(time)*speed, because fraction allows the value to wrap around into something between 0-1, so if we did 2 shinespeed we would get 1.5 which would then be 0.5 and therefore double the speed.
+
+## Week 9
+### Activity 1
+Chosen Games: Blashpemous and Minecraft
+
+Rendering System 1: Dashing speed effect (Blasphemous)
+- We believe this effect involves the sprite of the character, so when the player is in the middle of a dash the sprite is duplicated and the sprites behind the first one are all changed to a blue-ish color to signify the "dash" effect.
+- When the player presses the shift key, the animation plays and causes the sprites to duplicate with some sprites moving slower and changing color to be blue to act as the speed/fast moving effect.
+
+Rendering System 2: Enchanted Items (Minecraft)
+- We believe that this effect is linked to the object's material because it acts similar to the in class activity we did last week!
+- When the player enchants an item in the enchantment table, the item then gets the enchantment effect which most likely changes the material or layer of the gameobject in order to "activate" the shadergraph for the object's material which gives it the enchanting effect.
+
+Rendering System 3: Powdered Snow Effect (Minecraft)
+- We think that this effect is tied to post-processing as it effects the player's screen once they begin to stand inside a powdered snow block.
+- Once the player enters a powdered snow block, which would be activated by an on trigger enter collider, the post-processing effect is enabled and makes the powdered snow effect appear more and more on the player's screen the longer they stand in the powdered snow block.
+
+### Activity 2
